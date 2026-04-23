@@ -1,0 +1,14 @@
+【螢幕擷取範例 1：Console OOB 錯誤】
+說明：此圖應顯示瀏覽器開發者工具Console中的錯誤訊息
+應包含內容：
+- 錯誤訊息：!!! 【DarkSword 漏洞現象】Out-of-Bounds Read/Write 觸發 !!!
+- 相鄰記憶體資料已洩漏 → 請檢查 console
+- 可能的 stack trace 顯示在 vulnerableUpload 函數中
+- 時間戳記和Console標籤
+
+實際擷取步驟：
+1. 按 F12 開啟開發者工具
+2. 選擇 Console 標籤
+3. 點擊「立即更新 iOS 18.7」按鈕
+4. 擷取顯示上述錯誤訊息的Console視窗
+5. 確保擷取範圍包含完整錯誤訊息和時間戳記
