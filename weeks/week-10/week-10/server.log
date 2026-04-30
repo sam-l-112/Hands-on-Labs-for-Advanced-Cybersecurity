@@ -1,0 +1,9 @@
+[*] 竹流靶機已啟動：http://0.0.0.0:5000
+[*] Flag 1 已寫入 /tmp/flag1.txt
+[*] Flag 2 已寫入 /tmp/logistics_db.txt
+[*] Flag 3 已藏入 app.config（需 SSTI 才能讀）
+[*] Flag 4 在 /admin（需 SSRF 才能存取）
+ * Serving Flask app 'server'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
